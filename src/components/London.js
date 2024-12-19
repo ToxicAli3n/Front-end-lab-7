@@ -65,7 +65,8 @@ function London() {
             </p>
             {isImageVisible && (
                 <img
-                    src="/Image/London.jpg"
+                    src={`${process.env.PUBLIC_URL}/Image/London.jpg`}
+                    alt="London"
                     width={imageSize.width}
                     height={imageSize.height}
                 />
